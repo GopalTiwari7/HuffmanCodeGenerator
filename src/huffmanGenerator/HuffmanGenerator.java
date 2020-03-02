@@ -23,6 +23,8 @@ public class HuffmanGenerator {
     }
 
     public String convertNormalStringToHuffmanString() {
+
+
         return "";
     }
 }
