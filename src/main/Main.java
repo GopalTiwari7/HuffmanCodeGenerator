@@ -20,7 +20,7 @@ public class Main {
         BinaryGenerator binaryGenerator = new BinaryGenerator(userInput);
         StringBuilder binaryString = binaryGenerator.convertNormalStringToBinaryString();
         HuffmanGenerator huffmanGenerator = new HuffmanGenerator(userInput);
-        String huffmanString = huffmanGenerator.convertNormalStringToHuffmanString();
+        StringBuilder huffmanString = huffmanGenerator.convertNormalStringToHuffmanString();
         int lengthOfBinaryString = binaryString.length();
         int lengthOfHuffmanString = huffmanString.length();
         System.out.println("The binary string has " + lengthOfBinaryString + " characters.");
